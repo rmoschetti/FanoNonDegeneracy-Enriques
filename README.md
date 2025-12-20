@@ -14,6 +14,8 @@ Isotropic vectors and smooth rational curves are represented as vectors in $\mat
 - This project uses **SageMath 9.3**.
 - Outputs are saved both as plain text (`.txt`) and as Python-pickled compressed files (`.pickle`) via the `pickle` module.
 
+*Practical note.* For convenience, we recommend downloading (or cloning) the full repository, since several scripts assume the relative folder structure and local file paths. Users running SageMath through a notebook interface (e.g. Jupyter) can still use the .sage scripts by copying/pasting their contents into a notebook cell (or by running them via a terminal Sage session).
+
 ## About the [SB20] dataset and regenerated inputs
 
 The original dataset from [SB20] is **not included** in this repository (to avoid duplicating external data). In particular, the JSON input files derived from [SB20] are *not* shipped.
